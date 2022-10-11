@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Khulekani Matsebula Portfolio-SQL</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="company_databse.html" class="logo">PROJECTS</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="sql.html"><i class="fa fa-arrow-circle-left" style="font-size:36px" ></i></a>
+							</a>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/Khuks?tab=overview&from=2021-12-01&to=2021-12-31" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/khulekani-matsebula-3a88351b2
+                                " class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Design and Query a <br />
+                                        Company Database</h1>
+									<p>In this project, a database for the company named, Company X ,was created.<br />
+									The database constitutes of 5 tables namely,Employee, Branch ,Client ,Works_With and Branch Supplier.<br />
+									</p>
+								</header>
+								<div class="image main"><img src="images/company-database.png" alt="" /></div>
+                                <header class="minor">
+                                    <h2>
+                                        Company Data Storage Requirements
+                                    </h2>
+                                </header>
+                                <p>
+                                    The company is organized into branches. 
+                                    Each branch has a unique number, a name, and a particular employee who manages it.
+                                </p>
+                                <p>
+                                    The company makes it's money by selling to clients. Each client has a name and a unique number to identify it.
+                                </p>
+                                <p>
+                                    The foundation of the company is it's employees. Each employee has a name, birthday, sex, salary and a unique number.
+                                </p>
+                                <p>
+                                    An employee can work for one branch at a time, and each branch will be managed by one of the employees that work there.
+                                     We'll also want to keep track of when the current manager started as manager.
+                                </p>
+                                <p>
+                                    An employee can act as a supervisor for other employees at the branch, an employee may also act as the supervisor for employees at other branches. An employee can have at most one supervisor.
+                                </p>
+                                <p>
+                                    A branch may handle a number of clients, with each client having a name and a unique number to identify it.
+                                     A single client may only be handled by one branch at a time.
+                                </p>
+                                <p>
+                                    Employees can work with clients controlled by their branch to sell them stuff. If nescessary multiple employees can work with the same client. 
+                                    We'll want to keep track of how many dollars worth of stuff each employee sells to each client they work with.
+                                </p>
+                                <p>
+                                    Many branches will need to work with suppliers to buy inventory. For each supplier we'll keep track of their name and the type of product they're selling the branch. A single supplier may supply products to multiple branches.
+                                </p>
+
+                                <header class="minor">
+                                    <h2>
+                                        Company ER Diagram
+                                    </h2>
+                                </header>
+                                <div class="image main"><img src="images/company-erd (1).png" alt="" /></div>
+                                <h3>
+                                    What is an ER Diagram?
+                                </h3>
+                                <p>
+                                    ER Diagram stands for Entity Relationship Diagram, also known as ERD is a diagram that displays the relationship of entity sets stored in a database. In other words, ER diagrams help to explain the logical structure of databases.
+                                    ER diagrams are created based on three basic concepts: entities, attributes and relationships.
+                                </p>
+                                <p>
+                                    To learn more about ER Diagram Click <b><a href="https://www.guru99.com/er-diagram-tutorial-dbms.html">Here
+                                    </b></a>
+                                </p>
+
+                                <header class="minor">
+                                    <h2>
+                                        SQL QUERIES
+                                    </h2>
+                                </header>
+                                <p>
+                                    Core Concepts that were covered in the SQL queries include:
+                                </p>
+                                <ul>
+                                    <li>SQL Basic Queries</li>
+                                    <li>Creating the Company Database and Tables</li>
+                                    <li>Inserting Data Into The Tables</li>
+                                    <li>Setting up Constraints on the Tables</li>
+                                    <li>Perform Basic Queries</li>
+                                    <li>Use SQL Functions</li>
+                                    <li>
+                                        Willdcards
+                                    </li>
+                                    <li>Use Joins to Retrieve Information From The Database</li>
+                                    <li>Implement Nested Queries</li>
+                                    <li>On Delete</li>
+                                    <li>Triggers</li>
+                                    <li>
+                                        Designing an ER Diagram
+                                    </li>
+                                    <li>Converting ER Diagrams to DataBase Schemas</li>
+                                </ul>
+                                <ul class="actions special">
+                                    <li><a href="https://github.com/Khuks/Company-Database-in-SQL" class="button">View Code</a></li>
+                                </ul>
+								</section>
+
+					</div>
+
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Portfolio</li><li>Design: <a href="linkedin.com/in/khulekani-matsebula-3a88351b2">Khulekani Matsebula</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
