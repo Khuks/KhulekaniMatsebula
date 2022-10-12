@@ -4688,3 +4688,7 @@ input, select, textarea {
 		}
 
 	}
+
+#profile{
+	border-radius: 30px;
+}
