@@ -3,10 +3,12 @@
 ![Website](https://user-images.githubusercontent.com/67390835/195543163-8aa1c919-8380-46de-b3a6-2d8309a42e2b.PNG)
 
 My data analysis journey is to master and be an expert in this skills:
-1. Excel
-2. Power BI
-3. SQL
-4. Python
+<ol>
+<li> Excel</li>
+ <li>Power BI</li>
+<li>SQL</li>
+<li>Python</li>
+</ol>
 
 In my portfolio website, I have included navigation links to various projects that were completed using the above skillset.
 Since Data Analysis is not a one time thing and it requires constant learning and practise, I will be updating it and constantly adding projects in it while maintaining happy learning.
@@ -29,13 +31,15 @@ To  View The Excel Projects Click <a href="https://khuks.github.io/KhulekaniMats
 ![SQL](https://user-images.githubusercontent.com/67390835/195546000-1f546f36-5305-4c20-9ca2-97f48a13b194.PNG)
 This page contains all projects that were done in SQL.
 The SQL projects include:
-a) Designing databases
-b) The relational model (ER, Database Schema...)
-c) Basic Queries
-d) Data Cleaning and Data Aggregation
-e) SQL Functions
-f) Joins
-g) Unions 
+<ol>
+<li>Designing databases</li>
+<li>The relational model (ER, Database Schema...)</li>
+<li>Basic Queries</li>
+<li>Data Cleaning and Data Aggregation</li>
+<li>SQL Functions</li>
+<li>Joins</li>
+<li>Unions</li>
+</ol>
 
 and many more.
 
@@ -47,11 +51,13 @@ To  View The Excel Projects Click <a href="https://khuks.github.io/KhulekaniMats
 
 This page will house advanced data analysis projects:
 Topics to be covered include:
-a) Data Wrangling and data cleaning using Pandas
-b) Datavisualization using Seaborn,Matplotlib and Plotly
-c) Designing web based data visualization dashboards using Plotly-Dash
-d) Webscrapping 
-e) Machine Learning and More
+<ol>
+<li>Data Wrangling and data cleaning using Pandas<li>
+<li>Datavisualization using Seaborn,Matplotlib and Plotly</li>
+<li>Designing web based data visualization dashboards using Plotly-Dash</li>
+<li>Webscrapping</li>
+<li>Machine Learning and More</li>
+</ol>
 
 To  View The Excel Projects Click <a href="https://khuks.github.io/KhulekaniMatsebula/python.html">Here</a>
 
@@ -59,8 +65,10 @@ To  View The Excel Projects Click <a href="https://khuks.github.io/KhulekaniMats
 ![about](https://user-images.githubusercontent.com/67390835/195548567-6c6f9ec4-82c3-404d-92a1-6aa2f7dca29d.PNG)
 
 This page include the about information which include:
-1. Education
-2. Experience 
+<ol>
+<li>Education</li>
+<li>Experience</li> 
+</ol>
 And more 
 
 To  View The Excel Projects Click <a href="https://khuks.github.io/KhulekaniMatsebula/about.html">Here</a>
