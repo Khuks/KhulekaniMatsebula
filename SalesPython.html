@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Khulekani Matsebula Portfolio-Python</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="SalesPython.html" class="logo">PROJECTS</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<a href="python.html"><i class="fa fa-arrow-circle-left" style="font-size:20px" >  Back To Page</i></a>
+							</a>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/Khuks?tab=overview&from=2021-12-01&to=2021-12-31" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/khulekani-matsebula-3a88351b2
+                                " class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1> Sales Analysis <br />
+                                         using Python</h1>
+									<p>In this project, we utilise the power of <b>Pandas</b> a python library that is widely used for data wrangling and data manipulation in order to perform sales analysis on sales data for the year 2019.<br />
+                                    </p>
+                                    <p>
+                                        After cleaning and sorting the data, the data was plotted using <b>Matplotlib</b>, a python library for data visualization, in order to determine the best month for sales and identifying which city sold the most product.
+                                        </p>
+                                    <p>
+                                        Also, the suitable time to display advertisements to maximize likelihood of customer's buying product was visualized.
+									</p>
+								</header>
+                                <div class="image main"><img src="images/dataset.PNG" alt="" /></div>
+                                <p>
+                                    The dataset contains six features or columns namely Order ID, Product, Quantity Ordered ,Price Each, Order Date and Purchase Address.
+                                </p>
+                                <p>
+                                    <b>In order to perform the analysis, the following steps were covered:</b>
+                                </p>
+                                <ol>
+                                    <li> Load the libraries</li>
+                                </ol>
+                                <header class="minor">
+                                    <h3>
+                                        1. Load the libraries
+                                    </h3>
+                                </header>
+                                <div class="image main"><img src="images/libraries.PNG" alt="" /></div>
+                                <p>
+                                    The os library and pandas library were imported. The OS library was imported to interact with the operating system when changing file directory.
+                                    <br>
+                                    The pandas library was imported for data loading, data manipulation and data wrangling.
+                                </p>
+
+                                <header class="minor">
+                                    <h3>
+                                        2. Merge CSV files into One file
+                                    </h3>
+                                </header>
+
+                                <div class="image main"><img src="images/mergecsv.PNG" alt="" /></div>
+                                <p>
+                                    There are twelve files that contains monthly data from January 2019 to December 2019. This individual files need to be merged into a single file. 
+                                    After merging the montly data, the file is saved into a .csv file namely ,<b>all_data_copy.csv</b>
+                                </p>
+                                
+                                <header class="minor">
+                                    <h3>
+                                        3. Read Updated Dataframe
+                                    </h3>
+                                </header>
+
+                                <div class="image main"><img src="images/readupdateddataframe.PNG" alt="" /></div>
+                                <p>
+                                    The newly created .csv file , <b>all_data.csv</b> is loaded into pandas dataframe and the first 5 rows of the dataset are extracted using the <b>head()</b> function.
+                                </p>
+
+
+                                <header class="minor">
+                                    <h3>
+                                        4. Data Cleaning
+                                    </h3>
+                                </header>
+
+                                <div class="image main"><img src="images/dataclean.PNG" alt="" /></div>
+                                <p>
+                                    The are some null or empty cells in our datast, so we need to first drop all the <b>Null</b> values. After successfully removing null values, we get rid of text in <b>Order Date</b> column.
+                                    <br>
+                                    Then lastly, we change the type of the columns Quantity Order and Price Each to <b>numeric</b>
+                                </p>
+
+                                <header class="minor">
+                                    <h3>
+                                        5. Augment data with additional columns
+                                    </h3>
+                                </header>
+
+                                <div class="image main"><img src="images/augmenteddata.PNG" alt="" /></div>
+                                <p>
+                                    In this task, we extracted the month from the Order Date and created a new column called Month. 
+                                    <br>
+                                    After creating the new column , Month, we added a new column called city which was extracted from Purchase Address column.
+                                </p>
+
+                                <header class="minor" style="align-items: center;">
+                                    <h3>
+                                         6. Data Exploration
+                                    </h3>
+                                </header>
+                                <header class="minor">
+                                    <p>
+                                        During data exploration, the following questions were raised:
+                                        
+                                    </p>
+                                    <ol>
+                                        <li> What was the best month for sales? And how much was earned in that month? </li>
+                                        <li>What city sold the most product? </li>
+                                        <li>What time should we display advertisements to maximize likelihood of customer's buying product?</li>
+                                        <li>What products are most often sold together?</li>
+                                        <li>What product sold the most? Why do you think it sold the most?</li>
+                                    </ol>
+                                </header>
+                                <br>
+                                <h3>
+                                    1. What was the best month for sales? And how much was earned in that month?
+                                </h3>
+                                
+                                <div class="image main"><img src="images/bestmonthforsales.png" alt="" /></div>
+                                <p>
+                                    According to our analysis, the best month for sales was <b>December</b>. The sales that were made on that month alone were <b>$4 613 443</b>. 
+                                </p>
+                                <h3>
+                                    2. What city sold the most product?
+                                </h3>
+                                <div class="image main"><img src="images/citytosellmoreproducts.png" alt="" /></div>
+                                <p>
+                                    San Francisco (CA) was the most selling city with products sold amounting to <b>$8 262 204</b>.
+                                </p>
+
+                                <h3>
+                                    3. What time should we display advertisements to maximize likelihood of customer's buying product?
+                                </h3>
+                                <div class="image main"><img src="images/recommendedsales.png" alt="" /></div>
+                                <p>
+                                    The recommended time for displaying advertisements is before <b>11 a.m</b> and before <b>7 p.m</b>.
+
+                                </p>
+
+                                <h3>
+                                    4. What products are most often sold together?
+                                </h3>
+                                <div class="image main"><img src="images/productsoldoften.PNG" alt="" /></div>
+                                <p>
+                                    The products that sold often are iPhone and Lighting Charging Cable worth 1005 units sold.
+                                </p>
+
+                                <h3>
+                                    5. What product sold the most? Why do you think it sold the most?
+                                </h3>
+                                <div class="image main"><img src="images/quantiyvsproduct.png" alt="" /></div>
+                                <p>
+                                    The product that sold the most was Macbook Pro Laptop. The reason it sold the most is because it is affordable or doesn't cost that much in terms of Price.
+                                </p>
+                                
+                                <ul class="actions special">
+                                    <li><a href="https://github.com/Khuks/Company-Database-in-SQL" class="button">View Excel Project</a></li>
+                                </ul>
+                                
+								</section>
+                        
+                                <a href="python.html"><i class="fa fa-arrow-circle-left" style="font-size:20px" >  Back</i></a>
+							</a>
+
+					</div>
+
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Portfolio</li><li>Design: <a href="https://www.linkedin.com/in/khulekani-matsebula-3a88351b2">Khulekani Matsebula</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
